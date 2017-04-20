@@ -1,9 +1,14 @@
 import React from "react";
 
+import Rate from './Rate.jsx';
+
 export default class App extends React.Component {
     render() {
         return (
-            <h3 className="ui center aligned header">Hello World!</h3>
+            <div className="ui container">
+                <h1 className="ui center aligned header">MMK Exchange</h1>
+                <Rate />
+            </div>
         );
     }
 }
